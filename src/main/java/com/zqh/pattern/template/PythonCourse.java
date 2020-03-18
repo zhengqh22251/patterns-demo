@@ -1,0 +1,24 @@
+package com.zqh.pattern.template;
+
+/**
+ * @Author：zhengqh
+ * @date 2020/3/18 22:37
+ **/
+public class PythonCourse  extends Abstractcoucse {
+
+    private  boolean needCheck;
+
+    public void setNeedCheck(boolean needCheck) {
+        this.needCheck = needCheck;
+    }
+
+    @Override
+    protected boolean needCheckHomeWrok() {
+        return this.needCheck;
+    }
+
+    @Override
+    protected void CheckHomeWrok() {
+        System.out.println("检查python作业");
+    }
+}
