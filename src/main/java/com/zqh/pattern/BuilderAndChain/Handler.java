@@ -25,7 +25,6 @@ public abstract class Handler<T> {
           this.tail = handler;  // tail指向最后一个节点
           return this;
         }
-
         // 返回头节点 从头节点开始处理
         public Handler<T> build(){
             return this.head;
