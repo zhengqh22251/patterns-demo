@@ -6,7 +6,7 @@ package com.zqh.pattern.proxy.staticProxy;
  **/
 public class Test {
     public static void main(String[] args) {
-        Person person =new Father(new Son());
+        Father person =new Father(new Son());
         person.findLove();
     }
 }

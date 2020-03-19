@@ -14,12 +14,10 @@ public class InterfaceAdapter implements DCAdapt {
         this.ac220V = ac220V;
     }
 
-
     @Override
     public int output5() {
         return ac220V.outPut220()/44;
     }
-
     @Override
     public int output10() {
         return ac220V.outPut220()/22;
