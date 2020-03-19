@@ -9,6 +9,7 @@ import java.util.Map;
  * @Author：zhengqh
  * @date 2020/3/19 10:19
  **/
+  //上下文
 public class Factory {
     private static Map<String,IDiscount> map = new HashMap();
     static {
